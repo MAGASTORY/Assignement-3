@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+/*
+  nav{
+      background: grey;
+  }
+  */
+  .navbar-brand{
+      font-weight: 600;
+      color: black;
+      font-family: 'Poppins', sans-serif;
+
+  }
+  nav ul li a{
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      visibility: hidden;
+  }
+
+/* MAIN CONTENT */
+
+.text-brand{
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    left: 40px;
+}
+.titlecontrol p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    top: 20px;
+}
+
+.textcontent{
+    background: grey;
+    position: relative;
+    top: 30px;
+}
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.text p{
+    font-weight: 600;
+    text-align: justify;
+    margin: 0px 30px;
+}
+
+/*
+.beefix{
+    position: relative;
+    bottom: 10px;
+}
+
+/* FIX NAVBAR */
+.px{
+    margin-left: auto;
+}
+
+/* TEXT CONTENT */
+
+.textcontent .text{
+    padding-bottom: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px) { 
+    nav ul li a{
+        align-items: center;
+         
+    }
+    .beefix{
+        margin-top: 3%;
+    }
+    .sushifix{
+        margin-top: 3%;
+    }
+    nav ul li a:hover{
+        color: blue;
+    }
+ }
+
+ @media (max-width: 991.98px) { 
+    nav ul li a{
+        text-align: center;
+        visibility: visible;
+    }
+    .beefix{
+     margin-top: 3%;
+    }
+    .sushifix{
+        margin-top: 3%;
+    }
+  
+  nav ul li a:hover{
+      color: blue;
+  }
+}
